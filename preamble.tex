@@ -22,46 +22,18 @@
 \usepackage{xspace}
 \usepackage{setspace}
 
-\usetheme{CambridgeUS}
-\useoutertheme{miniframes}
-\usecolortheme{dolphin}
+\usepackage{mhchem}
+
+\usetheme{Szeged}
+\usecolortheme{seahorse}
 \usefonttheme{professionalfonts}
 \beamertemplatenavigationsymbolsempty
 
 \setbeamertemplate{background}{
     \tikz[overlay,remember picture]\node[opacity=0.09]at (current page.center){
-        \includegraphics[width=7cm]{images/WF_sygnet_czarny.png}
+        \includegraphics[width=5cm]{images/WF_sygnet_czarny.png}
     };
 }
-
-\defbeamertemplate{headline}{pwtemplate}{
-    \leavevmode
-    \hbox{
-        \begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=1ex,right]{title in head/foot}
-            \usebeamerfont{title in head/foot}
-            \insertframenumber/\inserttotalframenumber\hspace*{2em}
-        \end{beamercolorbox}}
-    \vskip0pt
-}
-
-\defbeamertemplate{footline}{pwtemplate}{ % gray!0 is white
-    \leavevmode
-    \setbeamercolor{lfooterbox}{bg=gray!0}
-    \begin{beamercolorbox}[wd=.33\paperwidth,ht=7pt,dp=4pt,center]{lfooterbox}
-        % \usebeamerfont{author in head/foot}
-        \includegraphics[scale=0.07]{images/WF_PW_sygnet_EN_czarny_RGB.png}
-    \end{beamercolorbox}%
-    \setbeamercolor{cfooterbox}{bg=gray!0}
-    \begin{beamercolorbox}[wd=.34\paperwidth,ht=7pt,dp=4pt,center]{cfooterbox}
-        % \usebeamerfont{date in head/foot}
-    \end{beamercolorbox}%
-    \setbeamercolor{rfooterbox}{bg=gray!0}
-    \begin{beamercolorbox}[wd=.33\paperwidth,ht=7pt,dp=4pt,right]{rfooterbox}
-        \usebeamerfont{title in head/foot}
-        \insertshortauthor \hspace*{2em}
-    \end{beamercolorbox}
-}
-
 
 
 \newcommand{\todo}[1]{\textcolor{red}{TODO: #1}}

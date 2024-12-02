@@ -1,0 +1,31 @@
+Slide ordering:
+
+    What are the source's energy characteristics, and how do these energies relate to the physics you aim to study with the detector? Could you clarify the energy range (in eV) for the planned measurements?
+
+    - Slide on what we're trying to measure
+
+    - Picture of detector
+
+
+    Previously Measured Characteristics: Could you share any data or characteristics you have already measured for the BGO photomultiplier tubes?
+    
+    - Slide with measured characteristics (raw)
+
+    - Slide with measured characteristics (adjusted for activity, background)
+
+    Problem Description: Please describe the issue you encountered with the current setup in detail and clarify why you are considering transitioning from PMTs to SiPMs.
+
+    - Energy resolution cannot be judged since the spectra look nothing like they're supposed to 
+
+    - Time resolution is way too large right now, we need to find the right parameters of preamp
+
+    Specific Measurements: What exactly would you like to measure during the testing? We have access to a darkbox as well as equipment to cool detectors down to -25°C.
+
+    - Ideally I want to measure the room temperature energy and time resolution (signal characteristics and energy spectroscopy)
+    - Additionally if we have the time, we could measure it at the lower temperature, the light efficiency should be slightly better (up to 1.5x). There are plans to measure the efficiency at liquid nitrogen temperatures as well (not necessarily this time). 
+
+    What type of source do you plan to use for exciting the crystal?
+    - Slide on sources: Sobium, Cobalt, Cesium
+
+
+
